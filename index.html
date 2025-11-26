@@ -1,41 +1,70 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Game Changelog</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            max-width: 700px;
-            margin: auto;
-            padding: 20px;
-        }
-        h1 {
-            text-align: center;
-        }
-        .log {
-            margin-bottom: 30px;
-        }
-        .version {
-            font-size: 1.4em;
-            margin-bottom: 5px;
-        }
-        .date {
-            color: gray;
-            margin-bottom: 10px;
-        }
-        ul {
-            line-height: 1.6;
-        }
-    </style>
+<style>
+
+#ChangeLog 
+{
+  height: 200px;
+  background-color: darkblue;
+  background-image: linear-gradient(to bottom, blue, darkblue);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align:center;
+  color:white;
+  font-size:40px;
+}
+
+body 
+{
+    background-color:#141414;
+    font-family: 'helvetica';
+    margin: auto;
+    max-width: 700px;
+    padding: 20px;
+    margin-bottom: 150px;
+    margin-top: 50px;
+    border: 2px solid #ccc;
+    border-color: blue; 
+}
+
+version 
+{
+    font-size:35px;
+    color:lightblue;
+}
+
+.date 
+{
+    color: gray;
+}
+
+ul 
+{
+    line-height: 1.6;
+    color:white;
+}
+
+.cm 
+{
+    color: gray;
+    margin-top: -5px;
+    margin-bottom: 15px;
+    font-size:15px;
+}
+
+</style>
 </head>
 <body>
-    <h1>Game Changelog</h1>
+    <div id="ChangeLog">Full list of changelogs</div>
+    <br>
 
-    <div class="log">
-        <div class="version">v1.3</div>
-        <div class="date">Unknown yet</div>
+    <version>v1.3</version>
+    <div class="date">27/11/2025</div>
         <ul>
             <li>Changed particles on every car almost</li>
+            <div class="cm">example comment</div>
             <li>Settings UI rework</li>
             <li>Credits UI rework</li>
             <li>Ability to delete records</li>
@@ -51,10 +80,7 @@
             <li>Removed ability to press coin capsule</li>
             <li>Added sleigh particles</li>
             <li>Added level 5 box</li>
+            <li>Made texts much smoother and better</li>
         </ul>
-    </div>
 </body>
 </html>
-
-
-
